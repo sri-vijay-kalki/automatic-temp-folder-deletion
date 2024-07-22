@@ -1,6 +1,6 @@
 
 $tempPath = "C:\Users\srivi\AppData\Local\Temp"
-$LoggerPath ="C:\Personal_dev\Automatic_Temp_Folder_Deletion\logger.txt"
+$LoggerPath ="C:\Personal_dev\Automatic_Temp_Folder_Deletion\automatic-temp-folder-deletion\logger.txt"
 $folders = Get-ChildItem -Path $tempPath -Directory
 <#
     started logging. Here i will fetch teh child directories and force delete them

@@ -14,3 +14,9 @@ This script is designed to automatically delete temporary folders from the speci
 2. **Create and Save the Scheduler Script:**
    - Save the scheduler script provided below as `tempFolderRemovalScheduler.ps1` in the same directory.
 
+3. **Run powershell as administrator**
+   - run the tempFolderRemovalScheduler.ps1 script file
+
+4. **Useful debug commands**
+   - `Get-ScheduledJob` - to check whether the Scheduler is registered or not
+   - `Unregister-ScheduledJob` - to unregister the Scheduler
